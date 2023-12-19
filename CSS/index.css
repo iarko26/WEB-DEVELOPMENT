@@ -1,0 +1,20 @@
+h1{
+    font-size: larger;
+    text-align: center;
+}
+p{
+    background-color: aquamarine;   /* element selector*/
+}
+
+#abc{
+    color: blue;  /* id selector*/
+}
+
+.para1{
+    background-color: rgb(255, 0, 0);  /* class selector*/
+}
+
+
+p.para1,#abc{
+   text-align: center;   /*group selector*/
+}2

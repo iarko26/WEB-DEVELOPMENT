@@ -1,0 +1,39 @@
+.container{
+    height: 700px;
+    border: 1ps solid red;
+    background-color: yellow;
+    display: grid;
+ /*   grid-template-rows: 30px 150px 400px 30px;
+    grid-template-columns: 400px;
+    grid-template-areas: 
+    "hd"
+    "side"
+    "con"
+    "foot";
+*/
+grid-template-columns: 300px 300px 300px;
+grid-template-rows:250px 600px ;
+grid-template-areas: 
+"hd hd hd hd hd hd hd hd "
+"side con con con con con con con"
+"foot foot foot foot foot foot foot foot";
+
+}
+
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+}
+
+#Header{
+    grid-area: hd;
+}
+#Footer{
+    grid-area: foot;
+}
+#Sidebar{
+    grid-area: side;
+}
+#Content{
+    grid-area: con;
+}
